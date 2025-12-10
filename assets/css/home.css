@@ -158,6 +158,7 @@ p{
     background-repeat: no-repeat;
     width: 143px;
     height: 146px;
+    border-radius: 25px;
 }
 
 .banner-box h4{
@@ -736,6 +737,7 @@ p{
     max-width: 230px;
     width: 100%;
     margin-top: 20px;
+    opacity: 0.70;
 }
 .create-pdf .banner-box{
     margin: 0;
@@ -880,8 +882,10 @@ footer{
         padding: 130px 0 30px;
     }
 
-    .banner-photo-mob{
+    .banner-photo-mob {
         display: block;
+        max-width: 300px;
+        width: 100%;
     }
     .banner-cnt{
         flex-direction: column;
@@ -1289,10 +1293,10 @@ footer{
         font-size: 20px;
     }
     .advantages-title {
-        max-width: 284px;
+        max-width: 450px;
     }
     .advantages-box {
-        height: 330px;
+        height: auto;
         max-width: 390px;
         padding: 15px;
         gap: 21px;
@@ -1319,7 +1323,7 @@ footer{
         width: 100%;
     }
     .convenient-cnt h2 {
-        max-width: 185px;
+        max-width: 100%;
         font-size: 35px;
     }
     .convenient-min {
@@ -1354,7 +1358,10 @@ footer{
         min-width: 28px;
         height: 28px;
     }
-
+    .supported-fon {
+        height: auto;
+        padding: 30px 20px 27px 20px;
+    }
 
     .open-accordion:before{
         height: 16px;
@@ -1367,7 +1374,10 @@ footer{
         border-radius: 12px;
     }
 
+    .create-pdf-title p {
+        font-size: 15px;
 
+    }
 
 
 
@@ -1395,8 +1405,24 @@ footer{
     }
     .create-pdf h2 {
         font-size: 20px;
+        padding-right: 10px;
     }
    footer .logo {
         width: 176px;
+    }
+    .create-pdf {
+        gap: 32px;
+    }
+    .banner-box {
+        height: auto;
+        padding: 20px 20px 20px 20px;
+    }
+    .banner-box .btn {
+        margin-top: 40px;
+    }
+    .banner-box:before {
+        width: 103px;
+        height: 106px;
+        border-radius: 20px;
     }
 }

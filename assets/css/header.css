@@ -4,14 +4,17 @@ header{
     top: 20px;
     width: 100%;
     z-index: 999;
+    transition: 0.3s;
 }
 .header-main{
     padding: 20px;
     border-radius: 20px;
     background: #0000004D;
     transition: background 0.3s ease, box-shadow 0.3s ease;
-
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
+
 
 .header {
     transition: background 0.3s ease, box-shadow 0.3s ease;
@@ -22,7 +25,17 @@ header{
     background: rgba(0,0,0,0.75);
 }
 .logo{
-    width: 173px;
+    gap: 12px;
+}
+.logo span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+.logo span b{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
 }
 .menu-mobile{
     gap: 195px;
@@ -195,7 +208,13 @@ header{
         line-height: 12px;
     }
     .logo {
-        width: 154px;
+        gap: 8px;
+    }
+    .logo img{
+        width: 20px;
+    }
+    .logo span{
+        font-size: 12px;
     }
 
 

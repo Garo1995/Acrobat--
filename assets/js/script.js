@@ -22,6 +22,8 @@ $(document).ready(function () {
 
 
 
+
+
 $(function () {
     let Accordion = function (el, multiple) {
         this.el = el || {};
